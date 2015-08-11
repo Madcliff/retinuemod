@@ -1,0 +1,34 @@
+title_decisions = {
+	found_legion = {
+			filter = sub_realm
+		ai_target_filter  = dynasty_owned
+		is_mercenary = yes	
+		from_potential = {			
+			ai = no
+			}
+	
+		potential = {
+		tier = COUNT
+		}	
+
+		allow = {
+
+		}
+		
+		effect = {	
+		location = {
+		save_event_target_as = legion_region	
+		}
+			
+			FROM = {
+			hidden_tooltip = { character_event = { id = legion.1 } }			
+			}	
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	}

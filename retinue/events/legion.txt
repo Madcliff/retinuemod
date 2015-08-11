@@ -1,0 +1,154 @@
+namespace = legion
+character_event = {
+	id = legion.1
+	desc = legion.1_desc
+	picture = GFX_evt_mongols
+	
+	is_triggered_only = yes
+
+	option = {	
+		name = legion.1a				
+				spawn_unit = {
+					owner = ROOT
+					leader = none
+					province = event_target:legion_region 
+					home = event_target:legion_region
+					troops = {
+						heavy_infantry = { 1500 1500 }	
+						archers = { 1000 1000 }						
+					}
+					attrition = 0.0
+					maintenance_multiplier = 0.0
+					reinforce_rate_multiplier = 2
+					reinforces = yes					
+					merge = yes				
+				
+				}							
+				spawn_unit = {
+					owner = ROOT
+					leader = none
+					province = event_target:legion_region 
+					home = event_target:legion_region
+					troops = {
+						heavy_infantry = { 1500 1500 }	
+						archers = { 1000 1000 }						
+					}
+					attrition = 0.0
+					maintenance_multiplier = 0.0
+					reinforce_rate_multiplier = 2
+					reinforces = yes					
+					merge = yes				
+					
+				}	
+				spawn_unit = {
+					owner = ROOT
+					leader = none
+					province = event_target:legion_region 
+					home = event_target:legion_region
+					troops = {
+						heavy_infantry = { 1500 1500 }	
+						archers = { 1000 1000 }						
+					}
+					attrition = 0.0
+					maintenance_multiplier = 0.0
+					reinforce_rate_multiplier = 2
+					reinforces = yes					
+					merge = yes									
+				}					
+			}			
+	option = {
+		name = legion.2a		
+				spawn_unit = {
+					owner = ROOT
+					leader = none
+					province = event_target:legion_region 
+					home = event_target:legion_region
+					troops = {
+						light_infantry = { 2500 2500 }		
+					}
+					attrition = 0.0
+					reinforces = yes
+					maintenance_multiplier = 0.0
+					reinforce_rate_multiplier = 2
+					merge = yes			
+				
+					}		
+				spawn_unit = {
+					owner = ROOT
+					leader = none
+					province = event_target:legion_region 
+					home = event_target:legion_region
+					troops = {
+						light_infantry = { 2500 2500 }				
+					}
+					attrition = 0.0
+					reinforces = yes
+					maintenance_multiplier = 0.0
+					reinforce_rate_multiplier = 2
+					merge = yes								
+					}
+				spawn_unit = {
+					owner = ROOT
+					leader = none
+					province = event_target:legion_region 
+					home = event_target:legion_region
+					troops = {
+						light_infantry = { 2500 2500 }			
+					}
+					attrition = 0.0
+					reinforces = yes
+					maintenance_multiplier = 0.0
+					reinforce_rate_multiplier = 2
+					merge = yes							
+					}					
+			}
+	option = {
+		name = legion.3a						
+				spawn_unit = {
+					owner = ROOT
+					leader = none
+					province = event_target:legion_region 
+					home = event_target:legion_region
+					troops = {
+						Horse_Archers = { 600 600 }	
+						Knights = { 400 400 }						
+					}
+					attrition = 0.0
+					reinforces = yes
+					maintenance_multiplier = 0.0	
+					reinforce_rate_multiplier = 2
+					merge = yes										
+				}
+				spawn_unit = {
+					owner = ROOT
+					leader = none
+					province = event_target:legion_region 
+					home = event_target:legion_region
+					troops = {
+						Horse_Archers = { 600 600 }	
+						Knights = { 400 400 }						
+					}
+					attrition = 0.0
+					reinforces = yes
+					maintenance_multiplier = 0.0	
+					reinforce_rate_multiplier = 2
+					merge = yes										
+				}
+				spawn_unit = {
+					owner = ROOT
+					leader = none
+					province = event_target:legion_region 
+					home = event_target:legion_region
+					troops = {
+						Horse_Archers = { 600 600 }	
+						Knights = { 400 400 }							
+					}
+					attrition = 0.0
+					reinforces = yes
+					maintenance_multiplier = 0.0	
+					reinforce_rate_multiplier = 2
+					merge = yes									
+				}				
+}
+}
+

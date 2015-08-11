@@ -1,0 +1,94 @@
+ # Types:
+# 0 - Light Infantry
+# 1 - Heavy Infantry
+# 2 - Pikemen
+# 3 - Light Cavalry
+# 4 - Heavy Cavalry
+# 5 - Archers
+# 6 - Special troops
+
+
+
+RETTYPE_LEGION =
+{
+	first_type = 1
+	first_amount = 500
+	hire_cost = 25
+	maintenance_multiplier = 0.1	
+	potential = {
+		FROM = { has_law = standing_army_1}			
+	}
+	modifier = {		
+	heavy_infantry_offense = 1
+	heavy_infantry_defense = 1
+	heavy_infantry_morale = 1
+	}
+}
+
+RETTYPE_LEGION_HEAVY_INFANTRY =
+{
+	first_type = 2
+	first_amount = 500
+	hire_cost = 25
+	maintenance_multiplier = 0.1	
+	potential = {
+		FROM = { has_law = standing_army_1}			
+	}
+	modifier = {		
+	pikemen_offense = 0.6
+	pikemen_defense = 0.6
+	pikemen_morale = 0.6
+	}
+}
+
+RETTYPE_LEGION_ASSAULT = 
+
+{
+	first_type = 5
+	first_amount = 500
+	hire_cost = 25
+	maintenance_multiplier = 0.1
+	reinforce_rate_multiplier = 2
+	maintenance = no
+	
+	potential = {
+		FROM = { has_law = standing_army_1}			
+	}
+	modifier = {		
+	archers_offense = 1
+	archers_defense = 1
+	archers_morale = 1
+	
+	}
+}
+
+
+RETTYPE_LEGION_KNIGHTS =
+{
+	first_type = 4
+	first_amount = 250
+	second_type = 6
+	second_amount = 250
+	special_troops = horse_archers
+	hire_cost = 50
+	maintenance_multiplier = 0.1	
+	potential = {
+		FROM = { has_law = standing_army_1}			
+	}
+	modifier = {		
+	knights_offense = 4
+	knights_defense = 4
+	knights_morale = 4
+	horse_archers_offense = 8
+	horse_archers_defense = 8
+	horse_archers_morale = 8	
+	}
+}
+
+
+
+
+
+
+
+

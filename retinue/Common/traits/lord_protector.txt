@@ -1,0 +1,12 @@
+# All arcane traits are here
+	
+lord_protector = {
+	ruler_designer_cost	= -500
+	same_opinion_if_same_religion = 50	 
+    customizer = yes
+	random = no	
+	}	
+
+
+
+

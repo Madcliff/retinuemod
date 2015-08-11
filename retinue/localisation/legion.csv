@@ -1,0 +1,21 @@
+Legion;Legion.;x
+Legion_desc;A maniple of a legion;x
+RETTYPE_LEGION;Legion;x
+RETTYPE_LEGION_desc;Legionares of a reformed empire, replacing the vassal troops you would otherwise rely upon;x
+standing_army;Standing Army;x
+standing_army_desc;Decide wether or not to invest in a a standing army, giving you a large force that is always availiable in exchange for less levies and tax revenue.;x
+standing_army_0;No Standing Army;x
+standing_army_0_desc;You possess no standing army at this time.;x
+standing_army_1;Standing Army;x
+standing_army_1_desc;You have done away with the armies of your vassals and instead rely upon a well trained and equiped standing army.;x
+
+
+LEGION_HEAVY_INFANTRY;Legion Heavy Infantry.;x
+LEGION_HEAVY_INFANTRY_desc;A maniple of a legion;x
+RETTYPE_LEGION_HEAVY_INFANTRY;Legion Heavy Infantry;x
+RETTYPE_LEGION_HEAVY_INFANTRY_desc;Legionares of a reformed empire, replacing the vassal troops you would otherwise rely upon;x
+
+dummy1;Imperial Foot;x
+dummy2;Imperial Horse;x
+dummy3;Imperial Army;x
+DYNAMIC_MERCENARY_COMPANY1;[Root.GetFirstName]'s [Root.Culture.GetName] Legion;x

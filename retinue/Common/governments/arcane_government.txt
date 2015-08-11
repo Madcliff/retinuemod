@@ -1,0 +1,61 @@
+republic_governments = {
+	noble_republic_government = {
+		preferred_holdings = { CITY }
+		allowed_holdings = { 
+			TRADE_POST
+			CITY
+			CASTLE
+			FAMILY_PALACE
+			FORT
+			TEMPLE
+		}
+		
+		forced_contract = {
+			feudal_government
+			muslim_government
+			theocracy_government
+			merchant_republic_government
+			republic_government
+			tribal_government
+		}
+		
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		free_revoke_on_tiers = {
+			baron
+		}
+		frame_suffix = "_merchantrepublic"
+		title_prefix = "city_"
+		potential = {
+			ai = no
+			is_patrician = yes
+			trait = lord_protector
+		}
+		color = { 250 0 0 }
+		unit_home_modifier = {
+			supply_limit = 5 # Supply limit modifier for Nomads in Nomad lands
+		}		
+		unit_modifier = {
+			retinuesize_perc = 1
+		}
+		character_modifier = {
+		}
+		merchant_republic = yes
+		free_retract_vassalage = yes		
+		can_imprison_without_reason = Yes
+		can_revoke_without_reason = Yes
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = yes
+		can_grant_kingdoms_and_empires_to_other_government = yes
+		allows_matrilineal_marriage = yes
+		max_wives = 4		
+		allow_looting = yes
+		max_consorts = 4
+		vassal_limit = 20
+		commander_limit = 40
+		demesne_size = 10
+		can_build_tribal = no	
+		retinue_maintenence_cost = -0.95			
+	}
+}

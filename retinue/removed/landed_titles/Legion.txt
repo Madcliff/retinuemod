@@ -1,0 +1,1120 @@
+b_legion_I = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_II = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_III = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_IV = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_V = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_VI = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_VII = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_VIII = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_IX = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_X = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XI = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XII = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XIII = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XIV = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XV = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XVI = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XVII = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XVIII = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XIX = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XX = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXI = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXII = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXIII = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXIV = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXV = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXVI = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXVII = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXVIII = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXIX = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXX = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXXI = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXXII = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXXIII = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXXIV = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXXV = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXXVI = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXXVII = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXXVIII = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XXXIX = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}
+b_legion_XL = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+#	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = High_Avalon
+	
+	mercenary = yes
+
+	title = "Legate"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = legion_composition
+}

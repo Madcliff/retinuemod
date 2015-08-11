@@ -1,0 +1,21 @@
+title_decisions = {
+	create_tradepost = {
+		filter = all
+		ai_target_filter  = realm	
+	
+		from_potential = {			
+			ai = no
+		}
+	
+		potential = {
+			tier = COUNT
+		}	
+
+		allow = {
+		}
+		
+		effect = {	
+			location = { FROM = { create_tradepost = PREV } }
+		}
+	}
+}

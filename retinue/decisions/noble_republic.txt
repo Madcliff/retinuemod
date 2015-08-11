@@ -1,0 +1,36 @@
+
+
+targetted_decisions = {
+	noble_republic_descison = {
+				filter = self
+		ai_target_filter  = self
+	
+		from_potential = {
+			is_playable = yes
+			ai = no			
+			}
+	
+		potential = {
+			character = FROM 
+			is_playable = yes
+			ai = no			
+			NOT = { trait = incapable }
+			is_patrician = yes
+		}
+		
+		allow = {}
+		
+		effect = {	 
+			FROM = {
+			set_government_type = noble_republic_government	
+			add_trait = lord_protector
+			}	
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	}

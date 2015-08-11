@@ -1,0 +1,1646 @@
+decisions = {
+   organize_LegionI = {
+		is_high_prio = yes
+		potential = {
+#			#trait = Mage		
+			is_female = no
+			prisoner = no
+			age = 16
+#			has_global_flag = LegionI_founded
+			NOT = { has_global_flag = LegionI_founded }
+		}
+		allow = {
+			FROM = { has_law = standing_army_1}			
+			prestige = 30			
+		}
+		effect = {
+			set_global_flag = LegionI_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_I status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_I = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+   organize_LegionII = {
+		is_high_prio = yes
+		potential = {
+#			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionI_founded
+			NOT = { has_global_flag = LegionII_founded }
+		}
+		allow = {
+			prestige = 30		
+		}
+		effect = {
+			set_global_flag = LegionII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_II status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_II = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionIII = {
+		is_high_prio = yes
+		potential = {
+#			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionII_founded
+			NOT = { has_global_flag = LegionIII_founded }
+		}
+		allow = {
+			prestige = 30			
+		}
+		effect = {
+			set_global_flag = LegionIII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_III status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_III = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionIV = {
+		is_high_prio = yes
+		potential = {
+#			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionIII_founded
+			NOT = { has_global_flag = LegionIV_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionIV_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_IV status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_IV = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionV = {
+		is_high_prio = yes
+		potential = {
+#			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionIV_founded
+			NOT = { has_global_flag = LegionV_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionV_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_V status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_V = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionVI = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionV_founded
+			NOT = { has_global_flag = LegionVI_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionVI_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_VI status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_VI = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionVII = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionVI_founded
+			NOT = { has_global_flag = LegionVII_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionVII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_VII status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_VII = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionVIII = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionVII_founded
+			NOT = { has_global_flag = LegionVIII_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionVIII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_VIII status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_VIII = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+   organize_LegionIX = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionVIII_founded
+			NOT = { has_global_flag = LegionIX_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionIX_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_IX status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_IX = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionX = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionIX_founded
+			NOT = { has_global_flag = LegionX_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionX_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_X status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_X = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXI = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionX_founded
+			NOT = { has_global_flag = LegionXI_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXI_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XI status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XI = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXII = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXI_founded
+			NOT = { has_global_flag = LegionXII_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XII status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XII = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXIII = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXII_founded
+			NOT = { has_global_flag = LegionXIII_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXIII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XIII status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XIII = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXIV = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXIII_founded
+			NOT = { has_global_flag = LegionXIV_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXIV_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XIV status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XIV = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXV = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXIV_founded
+			NOT = { has_global_flag = LegionXV_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXV_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XV status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XV = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXVI = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXV_founded
+			NOT = { has_global_flag = LegionXVI_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXVI_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XVI status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XVI = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXVII = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXVI_founded
+			NOT = { has_global_flag = LegionXVII_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXVII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XVII status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XVII = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXVIII = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXVII_founded
+			NOT = { has_global_flag = LegionXVIII_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXVIII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XVIII status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XVIII = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXIX = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXVIII_founded
+			NOT = { has_global_flag = LegionXIX_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXIX_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XIX status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XIX = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXX = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXIX_founded
+			NOT = { has_global_flag = LegionXX_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXX_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XX status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XX = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+   organize_LegionXXI = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXX_founded
+			NOT = { has_global_flag = LegionXXI_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXI_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXI status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXI = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXII = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXI_founded
+			NOT = { has_global_flag = LegionXXII_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXII status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXII = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXIII = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXII_founded
+			NOT = { has_global_flag = LegionXXIII_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXIII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXIII status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXIII = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXIV = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXIII_founded
+			NOT = { has_global_flag = LegionXXIV_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXIV_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXIV status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXIV = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXV = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXIV_founded
+			NOT = { has_global_flag = LegionXXV_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXV_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXV status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXV = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXVI = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXV_founded
+			NOT = { has_global_flag = LegionXXVI_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXVI_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXVI status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXVI = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXVII = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXVI_founded
+			NOT = { has_global_flag = LegionXXVII_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXVII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXVII status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXVII = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXVIII = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXVII_founded
+			NOT = { has_global_flag = LegionXXVIII_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXVIII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXVIII status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXVIII = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+   organize_LegionXXIX = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXVIII_founded
+			NOT = { has_global_flag = LegionXXIX_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXIX_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXIX status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXIX = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXX = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXIX_founded
+			NOT = { has_global_flag = LegionXXX_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXX_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXX status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXX = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXXI = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXX_founded
+			NOT = { has_global_flag = LegionXXXI_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXXI_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXXI status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXXI = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXXII = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXXI_founded
+			NOT = { has_global_flag = LegionXXXII_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXXII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXXII status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXXII = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXXIII = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXXII_founded
+			NOT = { has_global_flag = LegionXXXIII_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXXIII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXXIII status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXXIII = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXXIV = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXXIII_founded
+			NOT = { has_global_flag = LegionXXXIV_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXXIV_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXXIV status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXXIV = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXXV = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXXIV_founded
+			NOT = { has_global_flag = LegionXXXV_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXXV_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXXV status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXXV = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXXVI = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXXV_founded
+			NOT = { has_global_flag = LegionXXXVI_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXXVI_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXXVI status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXXVI = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXXVII = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXXVI_founded
+			NOT = { has_global_flag = LegionXXXVII_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXXVII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXXVII status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXXVII = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXXVIII = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXXVII_founded
+			NOT = { has_global_flag = LegionXXXVIII_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXXVIII_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XXXVIII status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXXVIII = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXXXIX = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXXVIII_founded
+			NOT = { has_global_flag = LegionXXXIX_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXXXIX_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XIX status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XXXIX = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   organize_LegionXL = {
+		is_high_prio = yes
+		potential = {
+			#trait = Mage
+			is_female = no
+			prisoner = no
+			age = 16
+			has_global_flag = LegionXXXIX_founded
+			NOT = { has_global_flag = LegionXL_founded }
+		}
+		allow = {
+			prestige = 30
+		}
+		effect = {
+			set_global_flag = LegionXL_founded
+			prestige = -30
+			wealth = -30
+			activate_title = { title = b_legion_XL status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = TOG.3100 }
+				create_character = {
+					random_traits = yes
+					religion = catholic
+					culture = roman
+					dynasty = NONE
+					female = no
+					age = 30
+					trait = skilled_tactician
+				}
+				new_character = {
+					b_legion_XL = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}	
