@@ -54,7 +54,7 @@ republic_governments = {
 		max_consorts = 4
 		vassal_limit = 20
 		commander_limit = 40
-		demesne_size = 10
+		demesne_size = 40
 		can_build_tribal = no	
 		retinue_maintenence_cost = -0.95			
 	}
